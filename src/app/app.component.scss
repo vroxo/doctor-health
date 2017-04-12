@@ -1,0 +1,16 @@
+$background-slider-color: #f2f2f2;
+$border-slider-color: #dcdcdc;
+$height-pixel: 312px;
+
+.slider-inicial{
+    text-align: center;
+    height: $height-pixel;
+    background: $background-slider-color;
+    border-bottom: 1px solid $border-slider-color;
+}
+
+.content{
+    margin-top: 3%;
+}
+
+   
