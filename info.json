@@ -1,0 +1,62 @@
+{
+    "clinicas":[{
+        "id": 1,
+        "nome": "Teste Clínica",
+        "cnpj": 21394163000176,
+        "endereco":{
+            "logradouro":"Avenida avenida rio branco",
+            "numero": 25,
+            "complemento":"loja b",
+            "bairro":"Centro",
+            "cidade":"Rio de Janeiro",
+            "estado":"RJ",
+            "cep": 20090902,
+            "lat":0,
+            "long":0
+        },
+        "resumo": "Clínica especializada",
+        "planos": [
+                    {"id":1, "nome":"SulAmerica"}, 
+                    {"id":2, "nome":"Bradesco"}, 
+                    {"id":0, "nome":"Particular"}
+                ],
+        "especialidades": [{"id":1,"tipo":"Odontologia"}],
+        "profissionais":[{
+                            "id":1,
+                            "nome":"Vitor",
+                            "especialidades":[{"id":1,"tipo":"Odontologia"}],
+                            "crm":54321 
+                        }]
+        
+        },
+        {
+            "id": 2,
+            "nome": "Teste2 Clínica",
+            "cnpj": 65342296000174,
+            "endereco":{
+                "logradouro":"Av. Alhambra",
+                "numero": 36,
+                "complemento":"Jardim Alhambra",
+                "bairro":"Campo Grande",
+                "cidade":"Rio de Janeiro",
+                "estado":"RJ",
+                "cep": 23045805,
+                "lat":0,
+                "long":0
+            },
+            "resumo": "Clínica especializada",
+            "planos": [
+                        {"id":1, "nome":"SulAmerica"}, 
+                        {"id":2, "nome":"Bradesco"}, 
+                        {"id":0, "nome":"Particular"}
+                    ],
+            "especialidades": [{"id":1,"tipo":"Pediatria"}],
+            "profissionais":[{
+                                "id":2,
+                                "nome":"Alex",
+                                "especialidades":[{"id":1,"tipo":"Pediatria"}],
+                                "crm":12345    
+                            }]
+            
+        }]
+}

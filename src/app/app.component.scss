@@ -3,14 +3,22 @@ $border-slider-color: #dcdcdc;
 $height-pixel: 312px;
 
 .slider-inicial{
+    padding-left:5%; 
     text-align: center;
     height: $height-pixel;
     background: $background-slider-color;
     border-bottom: 1px solid $border-slider-color;
 }
 
-.content{
-    margin-top: 3%;
+.div-busca{
+    padding: 1em;
+    background: rgba(253, 189, 0, 0.56);
+    color: white;
 }
 
+.btn-buscar{
+    cursor: pointer;
+    background-color: #292B2C;
+    color: white;
+}
    
